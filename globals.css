@@ -1,0 +1,134 @@
+* globals.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5; /* Light background */
+  color: #333; /* Darker text */
+}
+
+/* General layout styling */
+.container {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+}
+
+/* Headings */
+h1, h2 {
+  color: #4a90e2; /* Light blue for headings */
+}
+
+/* Sidebar styles */
+aside {
+  background: #e8e8e8; /* Light sidebar */
+  color: #333; /* Dark text for sidebar */
+  padding: 20px;
+  width: 250px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+aside:hover {
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #333; /* Dark text for links */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  display: block; /* Make the entire area clickable */
+  border-radius: 4px; /* Rounded corners */
+  transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #4a90e2; /* Light blue on hover */
+  color: #fff; /* White text on hover */
+}
+
+/* Main content styles */
+main {
+  flex: 1;
+  padding: 40px;
+  overflow-y: auto; /* Allow scrolling */
+}
+
+/* Button styles */
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+  border: none;
+  border-radius: 5px; /* Rounded corners for buttons */
+  background-color: #4a90e2; /* Light blue button */
+  color: #fff;
+}
+
+button:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  background-color: #357ab8; /* Darker blue on hover */
+}
+
+/* Table styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 0.5rem; /* Rounded corners for table */
+  margin-top: 20px;
+  background-color: #fff; /* Light background for table */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+/* General Input Styles */
+input, select {
+  border: 1px solid #ccc; /* Light border */
+  padding: 8px;
+  border-radius: 5px;
+  width: 100%; /* Full width */
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.05); /* Inner shadow */
+  background-color: #fafafa; /* Light input background */
+  color: #333; /* Dark text for inputs */
+}
+
+/* Table Row Hover Effect */
+tr:hover {
+  background-color: #f0f0f0; /* Lighter hover effect */
+}
+
+/* Additional styling for header rows */
+thead {
+  background-color: #4a90e2; /* Light blue for the header */
+  color: #fff; /* White header text */
+}
+
+/* Styling for status colors */
+.text-green {
+  color: #4caf50; /* Green for active */
+}
+
+.text-red {
+  color: #e74c3c; /* Red for inactive */
+}
+
+/* Styles for the Add Product section */
+.add-product {
+  background-color: #f0f0f0; /* Light background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
